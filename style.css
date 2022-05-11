@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&display=swap');
+
+/* .container-1 {
+    position: relative;
+} */
+
+body {
+    font-family: 'Bai Jamjuree';
+    color: rgb(103, 103, 103);
+}
+
+.content1 {
+    padding-top: 150px;
+    width: 50%;
+    margin: auto;
+}
+.header {
+    background-image: url(/images/bg-header-desktop.png);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.logo {
+    background-image: url(/images/logo.svg);
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+ h2, h3, h4, p {
+     text-align: center;
+     padding: 20px;
+}
+
+h2, h3, h4 {
+    font-family: 'Bai Jamjuree';
+    color: black;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.buttons {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.button1 {
+    width: 200px;
+    border-radius: 20px;
+    display: block;
+    background-color: hsl(171, 66%, 44%);
+    text-align: center;
+    padding: 10px;
+    margin-right: 20px;
+    box-shadow: 0px 3px 3px hsl(171, 66%, 44%);
+    border: 2px solid hsl(171, 71%, 41%);
+}
+
+.button2 {
+    width: 200px;
+    border-radius: 20px;
+    display: block;
+    background-color: hsl(233, 100%, 69%);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 3px 3px hsl(233, 100%, 69%);
+    border: 2px solid hsl(233, 92%, 64%);
+}
+
+.container-2 {
+    width: 50%;
+    margin: auto;
+}
+
+.container-3 {
+    display: flex;
+    margin: auto;
+    padding-top: 100px;
+    margin-bottom: 200px;
+}
+
+.screen {
+    background-image: url(/images/image-computer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    left: -3%;
+
+}
+
+.container-3-right {
+    width: 55%;
+    text-align: left;
+    margin-left: 400px;
+    padding: 15px;
+}
+
+.container-4 {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+.middle-img {
+    background-image: url(/images/image-devices.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.container-5 {
+    display: flex;
+    margin: auto;
+}
+
+.icon1 {
+    background-image: url(/images/icon-text.svg);
+    height: 40px;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 40px;
+    background-size: contain;
+
+}
+
+.icon-text {
+    width: 30%;
+    margin: auto;
+    padding: 25px;
+}
+
+.icon2 {
+    background-image: url(/images/icon-preview.svg);
+    height: 40px;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 40px;
+    background-size: contain;
+
+}
+
+.icon3 {
+    background-image: url(/images/icon-blacklist.svg);
+    height: 40px;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 40px;
+    background-size: contain;
+
+}
+
+img {
+    width: 15%;
+    padding: 25px;
+    margin: 20px;
+}
+
+.company-logos {
+    width: fit-content;
+    /* border: 1px solid green; */
+    margin: auto;
+}
+
+.content2 {
+    padding-top: 100px;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+    display: flex;
+}
+
+.footer-logo {
+    background-image: url(/images/logo.svg);
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-size: contain;
+    margin: 25px;
+}
+
+ul {
+    list-style: none;
+    margin: 10px;
+}
